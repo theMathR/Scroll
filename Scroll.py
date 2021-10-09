@@ -33,7 +33,7 @@ while index < len(program):
          del string[-1]
 
          if string[-1] == n[-1]:
-           index = right_brackets[index]
+           index = right_brackets[index]-1
 
       elif command == ']':
          if string[-1] != n[-1]:
