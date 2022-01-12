@@ -50,7 +50,7 @@ while index < len(program):
 
       else:
          string.append(command)
-   except IndexError: # Can appen if the string or n is empty
+   except IndexError: # Can happen if the string or n is empty
       pass
 
    index += 1
